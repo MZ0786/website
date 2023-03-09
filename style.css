@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding:2%;
+
+}
+
+body{
+    text-align:center;
+}
+
+#navbar {
+    background-color:rgb(66, 221, 66);
+    display:flex;
+    justify-content:space-evenly;
+    border-style: double;
+    border-color: black;
+
+}
+
+#navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:5vh;
+    color:blue;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color:red;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
